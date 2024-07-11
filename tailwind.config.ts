@@ -15,7 +15,9 @@ const config: Config = {
           textColor: '#5E6282',
           orange: '#DF6951',
           yellow: '#F1A501',
+          darkerBlue: '#212832',
         },
+        
       },
       fontFamily: {
         Poppins: ['var(--font-Poppins)'],

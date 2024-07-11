@@ -15,13 +15,13 @@ const NavBar = () => {
           <Link
             href={link.path}
             key={link.id}
-            className='font-links  hover:text-primary-orange 	'>
+            className='font-links text-primary-darkerBlue  hover:text-primary-orange 	'>
             {link.label}
           </Link>
         ))}
       </nav>
       <div className=' flex gap-4 '>
-        <select className='border-none outline-none bg-[#FFF1DA] gap-2'>
+        <select className='border-none outline-none bg-[#FFF1DA] '>
           {languages.map((lg: langProps) => (
             <option key={lg.id}> {lg.language} </option>
           ))}

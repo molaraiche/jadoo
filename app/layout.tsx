@@ -16,8 +16,11 @@ const volkhov = Volkhov({
 });
 
 export const metadata: Metadata = {
-  title: 'Jadoo',
+  title: 'Jadoo | Travel Agency',
   description: 'Book your trip in minute, get full Control for much longer.',
+  icons: {
+    icon: '/assets/Logo.svg',
+  },
 };
 
 export default function RootLayout({
