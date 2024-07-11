@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Poppins, Volkhov } from 'next/font/google';
-import './globals.css';
+import NavBar from '@/components/NavBar';
 import Image from 'next/image';
 
 const poppins = Poppins({
@@ -27,17 +27,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body
-        className={`${poppins.variable} ${volkhov.variable} container mx-auto`}>
-        <span className='absolute -z-10 flex justify-end items-end w-full top-0 right-0 bottom-90 left-0 '>
-          <Image
-            src='/assets/Decore.svg'
-            alt='bubble'
-            width={800}
-            height={800}
-          />
-        </span>
-        {children}
+      <body className={`${poppins.variable} ${volkhov.variable} `}>
+        <main className='container mx-auto'>
+          <span className='absolute -z-10 flex justify-end items-end w-full top-0 right-0 bottom-90 left-0 '>
+            <Image
+              src='/assets/Decore.svg'
+              alt='bubble'
+              width={800}
+              height={800}
+            />
+          </span>
+          <NavBar />
+          {children}
+        </main>
       </body>
     </html>
   );
