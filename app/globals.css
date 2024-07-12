@@ -5,3 +5,12 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+@layer utilities {
+  .centerBtn {
+    @apply flex items-center justify-center w-[148px] h-[52px];
+  }
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}

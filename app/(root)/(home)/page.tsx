@@ -1,13 +1,14 @@
+import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import React from 'react';
 const Home = () => {
   return (
-    <section className='flex items-center justify-center w-full'>
-      <div className='flex-1 w-full items-center justify-center'>
-        <p className='text-primary-orange font-extrabold size-20  w-full uppercase'>
+    <section className='flex items-center justify-between w-full px-36 lg:justify-center'>
+      <div className='flex-1 w-full items-center justify-center lg:text-center'>
+        <p className='text-primary-orange font-extrabold size-20  w-full uppercase lg:text-center'>
           Best Destinations around the world
         </p>
-        <h1 className='text-primary-darkBlue text-8xl	font-extrabold font-Volkhov'>
+        <h1 className='text-primary-darkBlue text-8xl	font-extrabold font-Volkhov lg:text-7xl sm:text-4xl lg:w-full'>
           Travel,{' '}
           <span className='underline underline-offset-8 decoration-primary-orange'>
             enjoy
@@ -16,17 +17,17 @@ const Home = () => {
           and live a new
           <br /> and full life
         </h1>
-        <p className='text-primary-textColor mt-6  w-96 font-medium leading-normal	'>
+        <p className='text-primary-textColor mt-6  w-96 font-medium leading-normal	lg:text-center lg:w-full '>
           Built Wicket longer admire do barton vanity itself do in it. Preferred
           to sportsmen it engrossed listening. Park gate sell they west hard for
           the.
         </p>
 
-        <div className='flex items-center mt-6 gap-3'>
-          <button className=' flex items-center justify-center w-[148px] h-[52px] bg-primary-yellow text-white rounded-md  hover:bg-yellow-500   '>
+        <div className='flex items-center mt-6 gap-3 lg:justify-center'>
+          <Button className=' flex items-center justify-center w-[148px] h-[52px] bg-primary-yellow text-white rounded-md  hover:bg-yellow-500   '>
             Find out more
-          </button>
-          <button className=' flex items-center justify-center w-[148px] h-[52px]'>
+          </Button>
+          <Button className='centerBtn'>
             <Image
               src='/assets/play-button.svg'
               alt='play button'
@@ -37,10 +38,10 @@ const Home = () => {
             <span className='text-[#686D77] font-links hover:text-primary-orange '>
               Play Demo
             </span>
-          </button>
+          </Button>
         </div>
       </div>
-      <div className='flex-1'>
+      <div className='flex-1 lg:hidden'>
         <Image
           src='/assets/hero-img.svg'
           width={800}
