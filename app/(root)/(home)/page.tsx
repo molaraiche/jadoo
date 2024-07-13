@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 const Home = () => {
   return (
-    <section className='flex items-center justify-between w-full px-36 lg:justify-center md:px-10 lg:h-[85vh] sm:my-24'>
+    <section className='flex items-center justify-between w-full px-36 lg:justify-center md:px-10 lg: max-h-full  lg:flex-col'>
       <div className='flex-1 w-full items-center justify-center lg:text-center'>
         <p className='text-primary-orange font-extrabold size-20  w-full uppercase lg:text-center'>
           Best Destinations around the world
@@ -17,7 +17,7 @@ const Home = () => {
           and live a new
           <br /> and full life
         </h1>
-        <p className='text-primary-textColor mt-6  w-96 font-medium leading-normal	md:w-full  '>
+        <p className='text-primary-textColor mt-6  w-96 font-medium leading-normal	lg:w-full  '>
           Built Wicket longer admire do barton vanity itself do in it. Preferred
           to sportsmen it engrossed listening. Park gate sell they west hard for
           the.
@@ -41,7 +41,7 @@ const Home = () => {
           </Button>
         </div>
       </div>
-      <div className='flex-1 lg:hidden'>
+      <div className='flex-1 '>
         <Image
           src='/assets/hero-img.svg'
           width={800}
