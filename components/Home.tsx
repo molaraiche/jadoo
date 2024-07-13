@@ -1,9 +1,11 @@
-import { Button } from '@/components/ui/button';
+import { Button } from './ui/button';
 import Image from 'next/image';
-import React from 'react';
+
 const Home = () => {
   return (
-    <section className='flex items-center justify-between w-full px-36 lg:justify-center md:px-10 lg: max-h-full  lg:flex-col'>
+    <section
+      id='home'
+      className='flex items-center justify-between w-full px-36 lg:justify-center md:px-10 lg: max-h-full  lg:flex-col'>
       <div className='flex-1 w-full items-center justify-center lg:text-center'>
         <p className='text-primary-orange font-extrabold size-20  w-full uppercase lg:text-center'>
           Best Destinations around the world
