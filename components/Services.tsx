@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section
       id='services'
-      className='w-full flex items-center justify-center flex-col box-shadow-light-200 mt-4 max-h-full '>
+      className='w-full flex items-center justify-center flex-col box-shadow-light-200 mt-24 max-h-full '>
       <h3 className='text-base font-bold text-primary-textColor uppercase mt-2  sm:text-sm  '>
         Category
       </h3>
