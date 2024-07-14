@@ -5,12 +5,23 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 @layer utilities {
   .centerBtn {
     @apply flex items-center justify-center w-[148px] h-[52px];
   }
   .flex-center {
     @apply flex items-center justify-center;
+  }
+  .titling {
+    @apply text-4xl font-Volkhov text-primary-darkBlue mt-4 font-bold sm:text-3xl sm:mx-2 sm:text-center;
+  }
+  .subTitling {
+    @apply text-base font-bold text-primary-textColor uppercase mt-2 sm:text-sm;
+  }
+  .centerSection {
+    @apply w-full flex items-center justify-center flex-col mt-24 max-h-full;
   }
 }

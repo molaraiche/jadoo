@@ -1,3 +1,4 @@
+import BookATrip from '@/components/BookATrip';
 import Home from '@/components/Home';
 import Services from '@/components/Services';
 import { Button } from '@/components/ui/button';
@@ -8,6 +9,7 @@ const page = () => {
     <main>
       <Home />
       <Services />
+      <BookATrip />
     </main>
   );
 };

@@ -14,3 +14,11 @@ export interface servicesProps {
   title: string;
   content: string;
 }
+
+export interface bookingType {
+  id: number;
+  image: string;
+  city: string;
+  price: number;
+  period: number;
+}

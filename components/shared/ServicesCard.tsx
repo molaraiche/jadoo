@@ -4,7 +4,7 @@ import React from 'react';
 
 const ServicesCard = ({ id, image, title, content }: servicesProps) => {
   return (
-    <div className='flex flex-col items-center justify-center box-shadow-light-300 cursor-pointer  h-[250px] shadow-main rounded-md w-[400px] sm:w-[250px] sm:h-[350px]'>
+    <div className='flex flex-col items-center justify-center cursor-pointer  h-[250px] shadow-main rounded-md w-[400px] sm:w-[250px] sm:h-[350px]'>
       <Image
         src={image}
         alt={content}
