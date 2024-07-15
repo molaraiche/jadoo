@@ -33,6 +33,7 @@ const config: Config = {
       boxShadow: {
         main: ' rgba(0, 0, 0, 0.1) 0px 4px 12px',
         booking: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+        heavy: 'rgba(0, 0, 0, 0.56) 0px 22px 70px 4px',
       },
       fontWeight: {
         links: '600',

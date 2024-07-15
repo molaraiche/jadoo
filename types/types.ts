@@ -22,3 +22,10 @@ export interface bookingType {
   price: number;
   period: number;
 }
+
+export interface stepsType {
+  id: number;
+  image: string;
+  title: string;
+  content: string;
+}
