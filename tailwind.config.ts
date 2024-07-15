@@ -32,6 +32,7 @@ const config: Config = {
       fontSize: {},
       boxShadow: {
         main: ' rgba(0, 0, 0, 0.1) 0px 4px 12px',
+        booking: 'rgba(0, 0, 0, 0.35) 0px 5px 15px;',
       },
       fontWeight: {
         links: '600',

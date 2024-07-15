@@ -15,7 +15,7 @@ export const booking = [
   },
   {
     id: 3,
-    image: '/assets/Europe.png',
+    image: '/assets/europe.jpg',
     city: 'Full Europe',
     price: 15,
     period: 10,
