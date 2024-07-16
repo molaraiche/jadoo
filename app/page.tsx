@@ -2,6 +2,7 @@ import BookATrip from '@/components/BookATrip';
 import Home from '@/components/Home';
 import NextTrip from '@/components/NextTrip';
 import Services from '@/components/Services';
+import Sponsors from '@/components/Sponsors';
 import Testimonials from '@/components/Testimonials';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
@@ -14,6 +15,7 @@ const page = () => {
       <BookATrip />
       <NextTrip />
       <Testimonials />
+      <Sponsors />
     </main>
   );
 };

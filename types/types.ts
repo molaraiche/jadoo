@@ -29,3 +29,8 @@ export interface stepsType {
   title: string;
   content: string;
 }
+
+export interface sponsorTypes {
+  id: number;
+  image: string;
+}
