@@ -3,7 +3,7 @@ import React from 'react';
 
 const Option = () => {
   return (
-    <div className='shadow-heavy flex items-center gap-4 p-10 w-[80%] rounded-lg'>
+    <div className='shadow-heavy flex items-center gap-4 p-10 w-[80%] rounded-lg sm:flex-col'>
       <div>
         <Image
           src='/assets/person.png'
@@ -14,7 +14,7 @@ const Option = () => {
         />
       </div>
       <div>
-        <p className='font-semibold text-primary-textColor'>
+        <p className='font-semibold text-primary-textColor sm:my-5 '>
           “On the Windows talking painted pasture yet its express parties use.
           Sure last upon he same as knew next. Of believed or diverted no.”
         </p>
