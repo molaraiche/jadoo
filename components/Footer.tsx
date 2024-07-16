@@ -8,7 +8,7 @@ const Footer = () => {
         id='footLink'
         className='flex items-center justify-center ml-16 md:flex-col md:ml-0'>
         <div className='flex flex-col justify-center md:items-center'>
-          <Image src='/assets/logo.svg' alt='Logo' width={200} height={100} />
+          <Image src='/assets/Logo.svg' alt='Logo' width={200} height={100} />
           <p className='text-[#5e6282] mt-5 md:text-center'>
             Book your trip in minute, get full Control for much longer.
           </p>
