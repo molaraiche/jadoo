@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const NavBar = () => {
-  const menu = false;
+  const menu = true;
   return (
     <section className='flex h-[10vh] items-center justify-between px-28 sm:px-10 '>
       <Link href='/'>
