@@ -38,23 +38,22 @@ const NextTrip = () => {
             <div className='flex justify-start items-start flex-col w-full gap-5  ml-10'>
               <h3 className='font-bold'>Trip To Greece</h3>
               <p className='text-primary-textColor'>
-                {' '}
-                14-29 june | by Robbin Joseph{' '}
+                14-29 june | by Robbin Joseph
               </p>
               <div className='flex gap-4 items-center justify-start w-full'>
                 <Image
                   src='/assets/LEAF.svg'
                   alt='LEAF'
-                  width={48}
-                  height={48}
+                  width={30}
+                  height={30}
                 />
                 <Image
                   src='/assets/send-1.svg'
                   alt='SEND'
-                  width={48}
-                  height={48}
+                  width={30}
+                  height={30}
                 />
-                <Image src='/assets/map.svg' alt='MAP' width={48} height={48} />
+                <Image src='/assets/map.svg' alt='MAP' width={30} height={30} />
               </div>
             </div>
 
@@ -62,8 +61,8 @@ const NextTrip = () => {
               <div className='flex items-center gap-2 justify-center text-primary-textColor '>
                 <Image
                   src='/assets/build.svg'
-                  width={36}
-                  height={36}
+                  width={26}
+                  height={26}
                   alt='building'
                 />
                 24 people going
