@@ -26,12 +26,12 @@ const NextTrip = () => {
             ))}
           </div>
         </div>
-        <div className='flex items-center justify-center  w-[50%] md:w-full  md:mt-20 '>
-          <div className='shadow-heavy w-[400] h-[330] flex flex-col items-center justify-center rounded-xl pb-4'>
+        <div className='flex items-center justify-center  w-[50%] md:w-[70%]  md:mt-20 '>
+          <div className='shadow-heavy w-[350] h-[280] flex flex-col items-center justify-center rounded-xl pb-4'>
             <Image
               src='/assets/redDress.jpg'
-              width={400}
-              height={200}
+              width={350}
+              height={280}
               className='rounded-t-xl object-cover mb-2'
               alt='Red Dress Women'
             />
