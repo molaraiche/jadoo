@@ -18,6 +18,9 @@ const config: Config = {
           darkerBlue: '#212832',
         },
       },
+      backgroundImage: {
+        gradIt: 'linear-gradient(180deg, #FF946D 0%, #FF7D68 100%)',
+      },
       screens: {
         '2xl': { max: '1535px' },
         xl: { max: '1279px' },
@@ -31,7 +34,7 @@ const config: Config = {
       },
       fontSize: {},
       boxShadow: {
-        main: ' rgba(0, 0, 0, 0.1) 0px 4px 12px',
+        main: 'rgba(0, 0, 0, 0.1) 0px 4px 12px',
         booking: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
         heavy: 'rgba(0, 0, 0, 0.56) 0px 22px 70px 4px',
       },
