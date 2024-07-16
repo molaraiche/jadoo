@@ -1,4 +1,5 @@
 import BookATrip from '@/components/BookATrip';
+import Footer from '@/components/Footer';
 import Home from '@/components/Home';
 import Newsletter from '@/components/Newsletter';
 import NextTrip from '@/components/NextTrip';
@@ -18,8 +19,9 @@ const page = () => {
       <Testimonials />
       <Sponsors />
       <Newsletter />
+      <Footer />
     </main>
   );
-};
+};  
 
 export default page;

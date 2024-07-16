@@ -5,7 +5,7 @@ import React from 'react';
 
 const Sponsors = () => {
   return (
-    <section className='flex w-full flex-wrap items-center justify-around gap-10 mt-24'>
+    <section className='flex w-full flex-wrap items-center justify-around gap-10 mt-24 mx-2'>
       {sponsors.map((sponsor: sponsorTypes) => (
         <Image
           src={sponsor.image}

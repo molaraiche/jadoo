@@ -25,3 +25,8 @@ html {
     @apply w-full flex items-center justify-center flex-col mt-24 max-h-full;
   }
 }
+
+#footLink a {
+  color: #5e6282;
+  font-weight: bold;
+}
