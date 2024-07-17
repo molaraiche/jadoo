@@ -1,16 +1,16 @@
-import { steps } from '@/Constants/steps';
+import { steps } from '@/constants/steps';
 import { stepsType } from '@/types/types';
 import StepCard from './shared/StepCard';
 import Image from 'next/image';
 
 const NextTrip = () => {
   return (
-    <section id='book-a-trip ' className='centerSection min-h-full my-4'>
+    <section id='book-a-trip ' className='centerSection'>
       <p className='subTitling flex justify-start items-center w-[90%] md:justify-center'>
         Easy and Fast
       </p>
-      <div className='flex w-full justify-between items-center md:flex-col '>
-        <div className='flex items-center justify-start flex-col w-[50%] md:w-full '>
+      <div className='flex w-full justify-center items-center md:flex-col '>
+        <div className='flex items-center justify-center flex-col w-[50%] md:w-full '>
           <h1 className='text-6xl font-Volkhov text-primary-darkBlue mt-4 font-bold sm:text-3xl sm:mx-2 sm:text-center flex justify-start items-center ml-10 '>
             Book Your Next Trips <br /> in 3 Easy Steps
           </h1>

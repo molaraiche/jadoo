@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const BookingCard = ({ image, city, price, period }: bookingType) => {
   return (
-    <div className=' text-primary-textColor w-[380px] h-[650px] shadow-booking text-center flex flex-col items-center justify-between rounded-xl transition-all cursor-pointer hover:scale-110  '>
+    <div className=' text-primary-textColor w-[380px] h-[650px] shadow-booking text-center flex flex-col items-center justify-between rounded-xl transition-all cursor-pointer hover:scale-110  md:mt-24 sm:w-[80%] '>
       <Image
         src={image}
         alt={city}

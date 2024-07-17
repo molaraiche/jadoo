@@ -1,4 +1,4 @@
-import { servicesContent } from '@/Constants/servicesContent';
+import { servicesContent } from '@/constants/servicesContent';
 import React from 'react';
 import ServicesCard from './shared/ServicesCard';
 import { servicesProps } from '@/types/types';

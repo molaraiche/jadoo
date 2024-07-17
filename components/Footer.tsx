@@ -80,22 +80,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex items-center justify-center h-[10vh] font-semibold '>
-        <p className='text-center mt-5'>
-          All rights reserved@jadoo.co Designed by
-          <Link
-            href='https://www.arshakir.com/'
-            className='text-primary-orange ml-1 font-bold '
-            target='_blank'>
-            ARSHAKIR
-          </Link>{' '}
-          & Coded by
-          <Link
-            href='http://molaraiche.com/'
-            className='text-primary-orange ml-1 font-bold '>
-            MOLARAICHE
-          </Link>
-        </p>
+      <div className='flex items-center justify-center font-semibold '>
+        <p className='text-center mt-5'>All rights reserved@jadoo.co</p>
       </div>
     </footer>
   );
