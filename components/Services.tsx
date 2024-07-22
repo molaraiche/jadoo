@@ -1,6 +1,6 @@
-import { servicesContent } from '../constants/servicesContent';
+import { servicesContent } from '@/constants/servicesContent';
 import ServicesCard from './shared/ServicesCard';
-import { servicesProps } from '../types/types';
+import { servicesProps } from '@/types/types';
 
 const Services = () => {
   return (

@@ -1,6 +1,6 @@
-import { booking } from '../constants/booking';
+import { booking } from '@/constants/booking';
 import BookingCard from './shared/BookingCard';
-import { bookingType } from '../types/types';
+import { bookingType } from '@/types/types';
 
 const BookATrip = () => {
   return (

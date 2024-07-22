@@ -1,5 +1,5 @@
-import { languages, navLinks } from '../constants/links';
-import { langProps, LinksProps } from '../types/types';
+import { languages, navLinks } from '@/constants/links';
+import { langProps, LinksProps } from '@/types/types';
 import Image from 'next/image';
 import Link from 'next/link';
 

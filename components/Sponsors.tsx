@@ -1,5 +1,5 @@
-import { sponsors } from '../constants/sponsors';
-import { sponsorTypes } from '../types/types';
+import { sponsors } from '@/constants/sponsors';
+import { sponsorTypes } from '@/types/types';
 import Image from 'next/image';
 
 const Sponsors = () => {
