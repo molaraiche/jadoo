@@ -1,4 +1,4 @@
-import { bookingType } from '@/types/types';
+import { bookingType } from '../../types/types';
 import Image from 'next/image';
 
 const BookingCard = ({ image, city, price, period }: bookingType) => {

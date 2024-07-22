@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Poppins, Volkhov } from 'next/font/google';
 import './globals.css';
 import Image from 'next/image';
-import NavBar from '@/components/NavBar';
+import NavBar from '../components/NavBar';
 
 const poppins = Poppins({
   subsets: ['latin'],

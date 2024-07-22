@@ -1,4 +1,4 @@
-import { servicesProps } from '@/types/types';
+import { servicesProps } from '../../types/types';
 import Image from 'next/image';
 
 const ServicesCard = ({ id, image, title, content }: servicesProps) => {

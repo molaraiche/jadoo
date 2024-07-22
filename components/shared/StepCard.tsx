@@ -1,4 +1,4 @@
-import { stepsType } from '@/types/types';
+import { stepsType } from '../../types/types';
 import Image from 'next/image';
 
 const StepCard = ({ title, image, content }: stepsType) => {
