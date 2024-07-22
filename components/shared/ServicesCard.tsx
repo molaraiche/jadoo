@@ -1,6 +1,5 @@
 import { servicesProps } from '@/types/types';
 import Image from 'next/image';
-import React from 'react';
 
 const ServicesCard = ({ id, image, title, content }: servicesProps) => {
   return (
