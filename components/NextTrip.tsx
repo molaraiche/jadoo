@@ -1,5 +1,5 @@
-import { steps } from '@/constants/steps';
-import { stepsType } from '@/types/types';
+import { steps } from '../constants/steps';
+import { stepsType } from '../types/types';
 import StepCard from './shared/StepCard';
 import Image from 'next/image';
 
