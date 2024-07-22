@@ -7,9 +7,11 @@ const nextConfig = {
       ...config.resolve.alias,
       '@': path.resolve('./'),
       '@/components': path.resolve('./components'),
+      '@/shared': path.resolve('./components/shared'),
+      '@/ui': path.resolve('./components/ui'),
       '@/constants': path.resolve('./constants'),
       '@/styles': path.resolve('./styles'),
-      '@/utils': path.resolve('./utils'),
+      '@/lib': path.resolve('./lib'),
     };
     return config;
   },
